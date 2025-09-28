@@ -18,7 +18,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 drive.mount('/to_your/drive')
 
-path = 'Path_to_where_the_data_is_located_in_the_driver'
+path = 'Path_to_where_the_data_is_located_in_the_drive'
 
 dataset = pd.read_csv(path)
 
