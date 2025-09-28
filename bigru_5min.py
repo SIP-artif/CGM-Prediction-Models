@@ -116,7 +116,7 @@ y_train_scaled = scaler.fit_transform(y_train.reshape(-1, 1))
 y_valid_scaled = scaler.transform(y_valid.reshape(-1, 1))
 y_test_scaled = scaler.transform(y_test.reshape(-1, 1))
 
-"""GRU Model"""
+"""BiGRU Model"""
 
 model = Sequential()
 
