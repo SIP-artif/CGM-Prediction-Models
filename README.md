@@ -7,7 +7,6 @@ This repository contains the implementation of deep learning models for **Contin
 The main architecture is a **Bidirectional GRU (BiGRU) and Bidirectional LSTM (BiLSTM) models**, evaluated using standard error metrics and **Prediction Error Grid Analysis (PRED-EGA)**.
 
 The code was originally developed in Google Colab and is designed to load preprocessed datasets from Google Drive.
-
 ---
 
 ## Features
@@ -18,7 +17,6 @@ The code was originally developed in Google Colab and is designed to load prepro
 * Evaluation metrics: **MAE, MSE, RMSE**.
 * **PRED-EGA (Prediction Error Grid Analysis)** implementation for clinical evaluation.
 * Visualization of training loss and prediction performance.
-
 ---
 
 
@@ -41,11 +39,9 @@ The code was originally developed in Google Colab and is designed to load prepro
    ph = 5   # for 5-minute prediction
    ph = 30  # for 30-minute prediction
    ph = 60  # for 60-minute prediction
-
 ---
 
 
 ## License
 
-This repository is released under the MIT License.
-
+The code is provided for academic and research purposes only. Commercial use is strictly prohibited.
