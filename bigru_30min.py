@@ -16,7 +16,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 """# Uploading the preprocessed dataset from the Drive"""
 
-drive.mount('/path_to/drive')
+drive.mount('/to_your/drive')
 
 path = 'Path_to_where_the_data_is_located_in_the_driv
 
